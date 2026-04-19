@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+
+# Environment variables
+.env
+!.env.example
+
+# Data
+data/raw/*
+data/processed/*
+
+!data/raw/data_raw_real_estates_sample.csv
+!data/processed/data_cleaned_sample.csv
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+#visualisations
+visualisations/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Temp
+*.tmp
